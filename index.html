@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Signup Form</title>
+    <link href="styles/mystyles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+   
+</head>
+
+<body>
+    <div class="regform">
+    <h1>Sign up now !!</h1></div>
+    <div class="main">
+
+        <form action="thankyou.html" autocomplete="on">
+            <div id="name">   
+                <h2 class="name">Name </h2>    
+                <input class="firstname" type="text" name="firstname" required>
+                <label class="firstlabel">First Name</label>
+                <input class="lastname" type="text" name="lastname" required><br><br>
+                <label class="lastlabel">Last Name</label>
+                </div> 
+
+        <h2 class="name">Email</h2>
+        <input class="email" type="email" name="email" required><br><br>
+
+        <h2 class="name">Age</h2>
+        <input class="age" type="number" name="age" required min="18"><br><br>
+        
+        <h2 class="name">Mobile Carrier</h2>
+        <select class="select-css" name="mobilecarrier" required>
+            <option disabled="disabled" selected="selected">--Select--</option>
+            <option>Idea</option>
+            <option>Jio</option>
+            <option>Airtel</option>
+            
+        </select><br><br>
+
+        <h2 id="license" class="name">Do you have a Motor Vehicle License?</h2>
+            <div class="vehicle">
+                <input type="radio" id="no" name="License" value="No" required>
+                <label for="no">No</label>
+
+                <div>
+                    <input type="radio" id="yes" name="License" value="Yes" required>
+                    <label for="yes">Yes</label>
+
+                        <div class="reveal-if-active">
+                            <h2 class="name">Type of Vehicle</h2>
+                            <select class="select-css-tov" name="tov" required>
+                                <option disabled="disabled" selected="selected">--Select--</option>
+                                <option>4 wheeler</option>
+                                <option>2 wheeler (with gear)</option>
+                                <option>2 wheeler (without gear)</option>
+                                <option>Heavy Vehicle</option>
+                            
+                            </select>
+                        </div>
+                </div>
+            </div>
+
+        <h2 class="name">How did you find out about Us</h2>
+        <select class="select-css" name="find" required>
+            <option disabled="disabled" selected="selected">--Select--</option>
+            <option>Friends</option>
+            <option>News</option>
+            <option>Online</option>
+            <option>Social Media</option>
+                
+        </select><br>
+            
+        
+        <h2 class="name">Skills you can offer: </h2>
+            <br>
+            <div class="skills">
+                <textarea rows = "6" cols = "70" name = "skills description" placeholder="Describe yourself here..."></textarea><br>
+            </div>
+            
+
+            
+        <input type="checkbox" id="tnc" name="tnc" value="yes" required>
+        <label for="tnc"> I agree to the <a href="terms.html">terms of service</a> </label><br><br>
+     
+        <button type="submit">SUBMIT</button>
+
+    </form>
+    </div>
+
+    <script src="scripts/myscripts.js"></script>
+</body>
+
+</html>

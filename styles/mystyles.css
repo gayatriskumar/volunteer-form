@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;}
+
+body{
+
+    background-position: center;
+    
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+
+}
+
+h1{
+    width: 950px;
+    height: 40px;
+    color: #282C35;
+    margin: auto;
+    padding: 15px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    background-color:  #008B8B;
+    
+}
+
+.main{
+    width: 950px;
+    margin: auto;
+    background-color:#F5F5F5 ;
+}
+
+
+    form{
+        padding: 10px;
+    }
+
+
+#name{
+    width: 100%;
+    height: 100px;
+}    
+
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+.firstname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    border: 2px solid #008B8B;
+}
+
+.lastname{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    border: 2px solid #008B8B;
+
+}
+
+.firstlabel{
+    position: relative;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 1px;
+    top: 5px;
+}
+
+.lastlabel{
+    position: absolute;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 980px;
+    top: 171px;
+}
+
+.age,.email{
+    position: relative;
+    left: 200px;
+    top: -37px;
+    line-height: 40px;
+    width: 537px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    border: 2px solid #008B8B;
+}
+
+.vehicle{
+    display: inline-block;
+    padding-right: 70px;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 15px;
+    position:relative;
+    left: 170px;
+    top: -70px;
+    
+}
+
+    .vehicle input{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+        outline-color: #008B8B;
+    }
+
+.reveal-if-active {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+input[type="radio"]:checked ~ .reveal-if-active,
+input[type="checkbox"]:checked ~ .reveal-if-active {
+  opacity: 1;
+  max-height: 100px; /* little bit of a magic number :( */
+  overflow: visible;
+}
+
+.select-css{
+    position: relative;
+    left: 200px;
+    top: -36px;
+    line-height: 40px;
+    width: 593px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    outline: none;
+    overflow: hidden;
+    background-color:#d8e2dc;
+    border: 2px solid #008B8B;
+}
+    .select-css option{
+        font-size: 16px;
+    }
+
+.select-css-tov{
+        position: relative;
+        left: 200px;
+        top: -36px;
+        line-height: 40px;
+        width: 400px;
+        height: 40px;
+        border-radius: 6px;
+        padding: 0 22px;
+        font-size: 16px;
+        outline: none;
+        overflow: hidden;
+        background-color:#d8e2dc;
+        border: 2px solid #008B8B;
+}
+    .select-css option{
+            font-size: 16px;
+            font-family:'Josefin Sans', sans-serif;
+            font-weight: 300;
+        }
+
+.skills{
+    position: relative;
+    left: 200px;
+    top: -50px;
+    line-height: 40px;
+    width: 593px;
+    border-radius: 6px;
+    outline-color: #F5F5F5 ;
+    border: 2px solid #008B8B;
+    padding: 0px 0px 0px 0px;
+    font-size: 16px;
+    height: 109px;
+    box-sizing: border-box;
+}
+    .skills textarea{
+        border: none;
+    }
+button{
+    background-color: #008B8B;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    outline:none;
+    cursor: pointer;
+    transition: 0.25px;
+    height:50px;
+    width: 150px;
+    text-align: center;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    
+
+}
+    button:hover{
+        background-color: #D0ECE7;
+
+    }
